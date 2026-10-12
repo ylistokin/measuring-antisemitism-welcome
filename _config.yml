@@ -1,0 +1,18 @@
+title: Measuring Antisemitism
+description: >-
+  Empirical studies of antisemitism, from the Brodie Center for Jewish and Israeli Law
+  at Yale Law School. Data and code for the Welcome post.
+author: Yair Listokin and Yehonatan Givati
+theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
+  footnote_backlink: "↩"
+header_pages:
+  - index.md
+exclude:
+  - .venv
+  - "**/__pycache__"
+  - requirements.txt
+  - CITATION.cff
+  - LICENSE

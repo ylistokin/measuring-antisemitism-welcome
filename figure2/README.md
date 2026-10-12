@@ -1,6 +1,6 @@
-# Figure 2 reproducibility repository
+# Figure 2 reproducibility
 
-This repository reproduces **Figure 2: Modern Empirical Papers in Top-10 Journals, by Field** from the *Measuring Antisemitism* project.
+This folder reproduces **Figure 2: Modern Empirical Papers in Top-10 Journals, by Field** from the *Measuring Antisemitism* project.
 
 ![Figure 2](outputs/figure_2_modern_top_10_journals.png)
 
@@ -24,16 +24,16 @@ Python 3.10 or later is recommended.
 python -m venv .venv
 # Windows: .venv\Scripts\activate
 # macOS/Linux: source .venv/bin/activate
-python -m pip install -r requirements.txt
-python scripts/build_figure2.py
-python -m unittest discover -s tests -v
+python -m pip install -r requirements.txt   # run from the repository root
+python figure2/scripts/build_figure2.py
+python -m unittest discover -s figure2/tests -v
 ```
 
 The build writes:
 
-- `outputs/figure_2_modern_top_10_journals.png`
-- `outputs/figure_2_modern_top_10_journals.svg`
-- `outputs/figure_2_counts.csv`
+- `figure2/outputs/figure_2_modern_top_10_journals.png`
+- `figure2/outputs/figure_2_modern_top_10_journals.svg`
+- `figure2/outputs/figure_2_counts.csv`
 
 ## Reproducibility workflow
 
@@ -110,6 +110,9 @@ These prompts are decision aids, not substitutes for review. For ambiguous cases
 - The disparity shown by the figure does not identify its causes or an optimal allocation of research attention.
 
 ## Citation
+
+See also [`CITATION.cff`](CITATION.cff) in this folder and at the repository root.
+
 
 Listokin, Yair, and Yehonatan Givati. “Figure 2: Modern Empirical Papers on Anti-Black Racism and Antisemitism in Top-10 Journals, 2000–2026, by Field.” *Measuring Antisemitism*. Data through September 18, 2026.
 
