@@ -47,4 +47,3 @@ This repository reproduces the supplied Figure 2 aggregates. It does **not** ind
 The workbook describes Crossref/OpenAlex retrieval and metadata screening, but raw retrieval responses, executable collection code, a full model transcript, model version and run parameters were not supplied. Workbook statements about completeness and adjudication are source claims, not independently verified findings of this repository. GPT outputs can misclassify articles; full-text review and a retained inclusion ledger are needed to audit the substantive counts.
 
 Only Figure 2 is covered. The full essay is not redistributed here. No reuse license has been inferred for the supplied materials.
-
