@@ -1,5 +1,10 @@
 # Figure 2 reproducibility
 
+There are two complementary reproductions in this folder:
+
+1. **From the paper-level ledger** (this page): `scripts/build_figure2.py` counts the papers in `data/figure2_papers.csv`, each with an explicit post-1960 inclusion decision (`include_figure2`), and draws the figure.
+2. **From the source workbook** ([REPLICATION_FROM_WORKBOOK.md](REPLICATION_FROM_WORKBOOK.md)): `scripts/reproduce_figure2.py` reads the census workbook, checks the eight published counts and cross-checks the master census (2,159 candidate records in `data/master_census.csv`).
+
 This folder reproduces **Figure 2: Modern Empirical Papers in Top-10 Journals, by Field** from the *Measuring Antisemitism* project.
 
 ![Figure 2](outputs/figure_2_modern_top_10_journals.png)

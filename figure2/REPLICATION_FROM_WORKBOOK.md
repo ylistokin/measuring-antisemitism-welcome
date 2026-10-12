@@ -1,4 +1,6 @@
-# Measuring Antisemitism: Welcome — Figure 2
+# Figure 2 — replication from the source workbook
+
+> This was the original `measuring-antisemitism-welcome` repository, now merged into `figure2/`. It checks the Figure 2 counts against the census workbook. The companion route in [README.md](README.md) rebuilds the counts from the paper-level ledger (`data/figure2_papers.csv`), which records the post-1960 inclusion decision for every counted paper.
 
 Replication materials for Figure 2 of the supplied “Welcome” essay introducing Measuring Antisemitism, the Brodie Center for Jewish and Israeli Law at Yale Law School’s blog.
 
@@ -20,13 +22,13 @@ Counts are empirical papers classified A (primary focus) in the supplied 40-jour
 
 ## Reproduce the figure
 
-Requires Python 3.10 or later. From the repository root:
+Requires Python 3.10 or later. From the repository root (where `requirements.txt` lives):
 
 ```sh
 python -m venv .venv
 # Activate the environment using the command appropriate to your operating system.
 python -m pip install -r requirements.txt
-python scripts/reproduce_figure2.py
+python figure2/scripts/reproduce_figure2.py
 ```
 
 The script reads cells X1:Z5 of the workbook’s `Figure 2` sheet, exports `data/figure2_counts.csv`, checks the supplied eight counts, and writes PNG, SVG and PDF charts plus `data/figure2_summary.json`. It also computes the unfiltered empirical A totals from the master records and compares them to the workbook’s discipline summary. The recreated chart reproduces the counts and grouped-bar structure; `figure2-original.png` preserves the exact published appearance.
