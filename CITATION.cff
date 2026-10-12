@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this figure or data, please cite it as below."
+title: "Figure 2: Modern Empirical Papers in Top-10 Journals, by Field"
+type: dataset
+authors:
+  - family-names: Listokin
+    given-names: Yair
+  - family-names: Givati
+    given-names: Yehonatan
+year: 2026
+version: 1.0.0
+date-released: 2026-10-12
+license: MIT
