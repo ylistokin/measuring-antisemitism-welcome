@@ -1,0 +1,16 @@
+Field,Rule
+Date window,"Publication date from 2000-01-01 through 2026-09-18, inclusive."
+Unit,"Substantive research article. Corrections, supplements, book reviews, front matter, obituaries, and duplicate metadata records are C."
+Anti-Black scope,"Prejudice, stereotyping, unequal treatment, racial hierarchy, segregation, anti-Black violence, or discriminatory institutions directed at Black people. Merely studying Black people or a Black-white outcome gap is insufficient without a substantial discrimination/racism focus."
+Antisemitism scope,"Prejudice, stereotyping, unequal treatment, exclusion, persecution, violence, or discriminatory institutions directed at Jews as Jews. Merely studying Jewish identity, Israel, Holocaust memory, or Jewish outcomes is insufficient without a substantial anti-Jewish focus."
+Symmetry,"The same target-plus-discriminatory-process rule was applied to both subjects. Identity-only, comparison-only, and generic intergroup papers were excluded for both."
+A,Primary focus. The discriminatory process and target group define the paper’s research question or central analysis.
+B,"Substantial focus inside a broader inquiry; the paper would still materially concern the subject, but it is not the sole or primary focus."
+C,"Incidental, identity/history only, comparison-only, insufficient metadata support, or non-substantive publication type."
+Empirical,"Original quantitative, qualitative, experimental, computational, archival, historical-data, or survey analysis."
+Nonempirical,"Theory, conceptual argument, narrative review, systematic review/meta-analysis coded as review, commentary, or agenda article."
+Candidate retention,"Broad target and discrimination terms were used in titles and available abstracts. Every resulting record was retained in Master Census, including C."
+Denominator,"Crossref journal-article records, deduplicated by DOI/title and excluding obvious non-substantive matter. This is a feasible proxy for substantive output, not a publisher-audited count."
+Metadata sources,Crossref REST API for complete ISSN/date streams and OpenAlex source/work metadata for journal identity and available abstracts.
+Ranking basis,A defensible prestige composite rather than a claim that one metric produces a unique top 10. Economics was cross-checked against RePEc; all disciplines were cross-checked against citation-based rankings such as SCImago and conventional field reputation.
+Reproducibility,"Source IDs, ISSNs, matched terms, abstracts when available, coding reasons, and exclusions are preserved in this workbook."

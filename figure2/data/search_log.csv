@@ -1,0 +1,13 @@
+Stage,Scope,Method,Output / check,Source
+Journal identity,40 journals,"Resolve exact source names, ISSN-L, and alternate ISSNs.",40 matched source records; see Journal Universe.,OpenAlex Sources
+Full corpus,All 40 ISSN streams,"Retrieve every Crossref journal-article record in date window, not only keyword hits.","85,134 substantive-article proxy records after deduplication and obvious non-substantive exclusions.",Crossref REST API
+Candidate screen,Title and available abstract,Symmetric broad target terms plus prejudice/discrimination/racism/persecution/segregation/violence terms.,"2,113 retained candidate-subject records.",Crossref + OpenAlex
+Adjudication,Every candidate record,Apply A/B/C and empirical/nonempirical codebook; retain C records.,Master Census contains all decisions and short reasons.,"Title, abstract, DOI landing metadata"
+Completeness check,Each journal,"Confirm nonzero coverage across date range, reconcile DOI/title duplicates, and isolate corrections/reviews/supplements.",See Completeness.,Crossref
+Search families,Anti-Black,anti-Black; African American; Black-white; racism; racial discrimination/bias/prejudice/stereotypes; segregation; Jim Crow; colorism; skin color; lynching; slavery.,,
+Search families,Antisemitism,antisemitism/anti-Semitism; anti-Jewish; Jewish prejudice/discrimination/bias/stereotypes; Jews; Holocaust/Shoah; persecution; pogrom; exclusion.,,
+Known limitation,Metadata,Publisher deposits vary in abstract and article-type completeness; keyword screening cannot recover a paper whose title and all available metadata omit both its target population and discriminatory process.,Rates are labeled proxies; record-level audit fields expose missing abstracts.,
+Ranking sources,Economics,IDEAS/RePEc aggregate and last-10-year journal rankings.,"Used as corroboration, not mechanical order.",https://ideas.repec.org/top/top.journals.all.html
+Ranking sources,All fields,SCImago Journal & Country Rank and conventional field-prestige judgments.,Used to choose broad-scope leading journals and avoid narrow specialist dominance.,https://www.scimagojr.com/
+Metadata documentation,Crossref,REST API metadata deposited by publishers and members.,,https://www.crossref.org/documentation/retrieve-metadata/rest-api/
+Metadata documentation,OpenAlex,Source and works identifiers used for journal resolution and abstract enrichment.,,https://help.openalex.org/
