@@ -1,0 +1,3 @@
+# Extra package needed only to rebuild figure3/data/ from the raw Project Implicit .sav files.
+-r requirements.txt
+pyreadstat==1.3.8

@@ -1,0 +1,7 @@
+# Store and check out text files with LF endings on every OS, so regenerated outputs are byte-identical.
+* text=auto eol=lf
+
+*.png  binary
+*.pdf  binary
+*.xlsx binary
+*.ttf  binary
