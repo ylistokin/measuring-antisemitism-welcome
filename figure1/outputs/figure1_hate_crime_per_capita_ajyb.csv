@@ -1,0 +1,36 @@
+year,antiblack,antijewish,incident_source,jewish_pop,jewish_pop_note,black_pop,antijewish_per_100k,antiblack_per_100k,ratio_jewish_to_black
+1991,1629,795,Kaplan concatenated FBI UCR/NIBRS 1991-2024,5798000,AJYB estimate for this year,30000000,13.71,5.43,2.52
+1992,2312,1020,Kaplan concatenated FBI UCR/NIBRS 1991-2024,5828000,AJYB estimate for this year,30711111,17.5,7.53,2.32
+1993,2825,1141,Kaplan concatenated FBI UCR/NIBRS 1991-2024,5840000,AJYB estimate for this year,31422222,19.54,8.99,2.17
+1994,2179,919,Kaplan concatenated FBI UCR/NIBRS 1991-2024,5880000,AJYB estimate for this year,32133333,15.63,6.78,2.31
+1995,2993,1058,Kaplan concatenated FBI UCR/NIBRS 1991-2024,5900000,AJYB estimate for this year,32844444,17.93,9.11,1.97
+1996,3676,1109,Kaplan concatenated FBI UCR/NIBRS 1991-2024,5900000,AJYB estimate for this year,33555556,18.8,10.95,1.72
+1997,3123,1088,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6005000,AJYB estimate for this year,34266667,18.12,9.11,1.99
+1998,2903,1081,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6041000,AJYB estimate for this year,34977778,17.89,8.3,2.16
+1999,2962,1110,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6061000,AJYB estimate for this year,35688889,18.31,8.3,2.21
+2000,2888,1110,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6136000,AJYB estimate for this year,36400000,18.09,7.93,2.28
+2001,2902,1045,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6155000,AJYB estimate for this year,36960000,16.98,7.85,2.16
+2002,2487,931,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6155000,AJYB estimate for this year,37520000,15.13,6.63,2.28
+2003,2550,927,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6155000,AJYB estimate for this year,38080000,15.06,6.7,2.25
+2004,2738,954,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6254010,interpolated (no AJYB 2004 volume in DataBank),38640000,15.25,7.09,2.15
+2005,2632,849,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6353020,interpolated (no AJYB 2005 volume in DataBank),39200000,13.36,6.71,1.99
+2006,2641,968,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6452030,AJYB estimate for this year,39760000,15.0,6.64,2.26
+2007,2660,970,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6443805,AJYB estimate for this year,40320000,15.05,6.6,2.28
+2008,2878,1013,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6489110,AJYB estimate for this year,40880000,15.61,7.04,2.22
+2009,2300,932,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6516555,interpolated (no AJYB 2009 volume in DataBank),41440000,14.3,5.55,2.58
+2010,2202,887,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6544000,AJYB estimate for this year,42000000,13.55,5.24,2.59
+2011,2078,772,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6588065,AJYB estimate for this year,42490000,11.72,4.89,2.4
+2012,2061,868,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6721680,AJYB estimate for this year,42980000,12.91,4.8,2.69
+2013,1855,625,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6721965,AJYB estimate for this year,43470000,9.3,4.27,2.18
+2014,1631,609,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6768980,AJYB estimate for this year,43960000,9.0,3.71,2.43
+2015,1760,666,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6829930,AJYB estimate for this year,44450000,9.75,3.96,2.46
+2016,1758,690,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6856304,AJYB estimate for this year,44940000,10.06,3.91,2.57
+2017,2103,963,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6850865,AJYB estimate for this year,45430000,14.06,4.63,3.04
+2018,1993,856,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6925475,AJYB estimate for this year,45920000,12.36,4.34,2.85
+2019,2169,1102,Kaplan concatenated FBI UCR/NIBRS 1991-2024,6968600,AJYB estimate for this year,46410000,15.81,4.67,3.39
+2020,3416,923,Kaplan concatenated FBI UCR/NIBRS 1991-2024,7153495,AJYB estimate for this year,46900000,12.9,7.28,1.77
+2021,3455,842,Kaplan concatenated FBI UCR/NIBRS 1991-2024,7266140,AJYB estimate for this year,47366667,11.59,7.29,1.59
+2022,3587,1157,Kaplan concatenated FBI UCR/NIBRS 1991-2024,7391905,AJYB estimate for this year,47833333,15.65,7.5,2.09
+2023,3211,1868,Kaplan concatenated FBI UCR/NIBRS 1991-2024,7460600,AJYB estimate for this year,48300000,25.04,6.65,3.77
+2024,3171,1973,Kaplan concatenated FBI UCR/NIBRS 1991-2024,7699755,AJYB estimate for this year,48700000,25.62,6.51,3.94
+2025,2847,1540,FBI Crime Data Explorer (2025 release),7699755,AJYB 2024 estimate carried forward,49100000,20.0,5.8,3.45
