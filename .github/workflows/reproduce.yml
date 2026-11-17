@@ -1,0 +1,39 @@
+name: Reproduce Figures 1–3
+
+# Regenerates every figure from the committed inputs with the pinned requirements and fails if any
+# text output changes by even one byte, any PNG changes by even one pixel, or a run creates a file
+# that is not committed (see check_outputs.py).
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Figure 1
+        run: python figure1/scripts/make_figure1.py
+      - name: Figure 2
+        run: |
+          python figure2/scripts/build_figure2.py
+          python -m unittest discover -s figure2/tests -v
+      - name: Figure 3
+        run: python figure3/scripts/make_figure3.py
+      - name: Outputs match the committed files
+        run: python check_outputs.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: figures
+          path: |
+            figure1/outputs/
+            figure2/outputs/
+            figure3/outputs/
